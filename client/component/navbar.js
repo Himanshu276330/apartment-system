@@ -12,13 +12,10 @@ export default function Navbar() {
                 />
                 <h2 className="header--title"><a href="/">Apt-System</a></h2>
                 <h4 className="header--project1"><a href="/">Home</a></h4>
-                <h4 className="header--project2"><a href="/Faculty">MyOrder</a></h4>
-                {/* <h4 className="header--project3"><a href="/Researchers">Researchers</a></h4>
-                <h4 className="header--project4"><a href="/Publications">Publications</a></h4>
-                <h4 className="header--project5"><a href="/Projects">Projects</a></h4>
-                <h4 className="header--project6"><a href="/Resources">Resources</a></h4> */}
-                <h4 className="header--project7"><a href="/contact">Contact Us</a></h4>
-                <h4 className="header--project7"><a href="/profile"><img src={session.user.image} className="rounded-circle" width="150"></img></a></h4>
+                <h4 className="header--project2"><a href="/">MyOrder</a></h4>
+                <h4 className="header--project2"><a href="/">MyPropertyActivity</a></h4>
+                <h4 className="header--project7"><a href="/">Contact Us</a></h4>
+                <h4 className="header--project7"><a href="/profile"><img className="rounded-circle" src={session.user.image}  width="150" alt='not found' ></img></a></h4>
             </header>
         );
     } else {
@@ -30,13 +27,11 @@ export default function Navbar() {
                 />
                 <h2 className="header--title"><a href="/">Apt-System</a></h2>
                 <h4 className="header--project1"><a href="/">Home</a></h4>
-                <h4 className="header--project2"><a href="/Faculty">MyOrder</a></h4>
-                {/* <h4 className="header--project3"><a href="/Researchers">Researchers</a></h4>
-                <h4 className="header--project4"><a href="/Publications">Publications</a></h4>
-                <h4 className="header--project5"><a href="/Projects">Projects</a></h4>
-                <h4 className="header--project6"><a href="/Resources">Resources</a></h4> */}
-                <h4 className="header--project7"><a href="/contact">Contact Us</a></h4>
-                <h4 className="header--project7"><a href="/profile"><img src="https://www.pngkey.com/png/detail/202-2024792_profile-icon-png.png" className="rounded-circle" width="150"></img></a></h4>
+
+                <h4 className="header--project2"><a href="/">MyOrder</a></h4>
+                <h4 className="header--project2"><a href="/">MyPropertyActivity</a></h4>
+                <h4 className="header--project7"><a href="/">Contact Us</a></h4>
+                <h4 className="header--project7"><a href="/profile"><img  className="rounded-circle" src="https://www.pngkey.com/png/detail/202-2024792_profile-icon-png.png" width="150" alt="not found"></img></a></h4>
             </header>
         );
     }
