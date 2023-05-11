@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
 
 body {
-	background: #9825e4;
-	background-image: linear-gradient(to right, #ffffb3, #ffe6e6);
-	background-attachment: fixed;
-	background-size: cover;
+	background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
 	/* himanshu */
-}
+ } 
 
 #container {
-	box-shadow: 0 15px 30px 1px grey;
-	background: rgba(255, 255, 255, 0.90);
+	box-shadow: 0 15px 30px 1px rgb(231, 12, 12);
+	 background: rgba(255, 255, 255, 0.90); 
 	text-align: center;
 	border-radius: 5px;
 	overflow: hidden;
 	margin: 5em auto;
 	width: 70%;
 	height: 350px;
+	
 }
 
 .product-details {
@@ -32,12 +34,19 @@ body {
 }
 
 #container .product-details h1 {
-	font-family: 'Bebas Neue', cursive;
+	/* font-family: 'Bebas Neue', cursive; */
 	display: inline-block;
 	position: relative;
-	font-size: 30px;
-	color: #344055;
+	/* font-size: 30px; */
+	/* color: #344055; */
 	margin: 0;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 30px;
+	font-weight:bold;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+	position:center;
+	left: 1.5cm;
 
 }
 
@@ -82,7 +91,7 @@ body {
 }
 
 .btn {
-	transform: translateY(0px);
+	transform: translateY(-20px);
 	transition: 0.3s linear;
 	background: #5a7ce2;
 	border-radius: 5px;
@@ -90,16 +99,16 @@ body {
 	overflow: hidden;
 	cursor: pointer;
 	outline: none;
-	border: none;
+	border: 3px solid rgb(0, 0, 0);
 	color: #eee;
 	padding: 0;
-	margin: 0;
-
+	margin: 0px;
+    /* box-shadow: 0 15px 30px 1px rgb(5, 1, 1); */
 }
 
 .btn:hover {
-	transform: translateY(2px);
-	background: #1a66ff;
+	transform: translateY(-30px);
+	background: #f3a4f1;
 }
 
 .btn span {
@@ -163,7 +172,7 @@ body {
 }
 
 .info {
-	background: rgba(27, 26, 26, 0.9);
+	background: rgba(73, 72, 71, 0.9);
 	font-family: 'Bree Serif', serif;
 	transition: all 1s ease-out;
 	transform: translateX(-100%);

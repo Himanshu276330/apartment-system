@@ -1,5 +1,5 @@
 import Axios, * as others from 'axios';
-import { Button } from "../component/Button";
+import { Button } from "../component/button";
 import Navbar from "../component/navbar";
 import { signIn, signOut, useSession, getSession } from 'next-auth/react';
 

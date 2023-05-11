@@ -17,7 +17,7 @@ export default function Navbar() {
                 <h4 className="header--project4"><a href="/Publications">Publications</a></h4>
                 <h4 className="header--project5"><a href="/Projects">Projects</a></h4>
                 <h4 className="header--project6"><a href="/Resources">Resources</a></h4> */}
-                <h4 className="header--project7"><a href="/Contact">Contact Us</a></h4>
+                <h4 className="header--project7"><a href="/contact">Contact Us</a></h4>
                 <h4 className="header--project7"><a href="/profile"><img src={session.user.image} className="rounded-circle" width="150"></img></a></h4>
             </header>
         );
@@ -35,7 +35,7 @@ export default function Navbar() {
                 <h4 className="header--project4"><a href="/Publications">Publications</a></h4>
                 <h4 className="header--project5"><a href="/Projects">Projects</a></h4>
                 <h4 className="header--project6"><a href="/Resources">Resources</a></h4> */}
-                <h4 className="header--project7"><a href="/Contact">Contact Us</a></h4>
+                <h4 className="header--project7"><a href="/contact">Contact Us</a></h4>
                 <h4 className="header--project7"><a href="/profile"><img src="https://www.pngkey.com/png/detail/202-2024792_profile-icon-png.png" className="rounded-circle" width="150"></img></a></h4>
             </header>
         );
